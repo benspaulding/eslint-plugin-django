@@ -63,7 +63,8 @@ functions in the eslint configuration
     "gettext_noop": "readonly",
     "pgettext": "readonly",
     "npgettext": "readonly",
-    "pluralidx": "readonly"
+    "pluralidx": "readonly",
+    "django": "readonly"
   }
 }
 ```
