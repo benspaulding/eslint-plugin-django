@@ -2,12 +2,12 @@
 
 ## Overview
 
-This eslint environment plugin provides globals for the [Django JavaScript
+This ESLint environment plugin provides globals for the [Django JavaScript
 Catalog](https://docs.djangoproject.com/en/2.2/topics/i18n/translation/#using-the-javascript-translation-catalog).
 
-Most eslint configurations use
+Most ESLint configurations use
 [`"no-undef": "error"`](https://eslint.org/docs/rules/no-undef), which will cause
-eslint to error if you internationalize your code and use Django as your backend,
+ESLint to error if you internationalize your code and use Django as your backend,
 e.g.:
 
 ```html+django
@@ -29,7 +29,7 @@ First add the plugin as a development dependency:
 npm install --save-dev eslint-plugin-django
 ```
 
-Then configure eslint to use it:
+Then configure ESLint to use it:
 
 ```json
 {
@@ -42,16 +42,16 @@ Then configure eslint to use it:
 }
 ```
 
-Refer to the eslint docs for configuring
+Refer to the ESLint docs for configuring
 [`plugins`](https://eslint.org/docs/user-guide/configuring#configuring-plugins) and
 [`environments`](https://eslint.org/docs/user-guide/configuring#specifying-environments)
 if you need more information.
 
 ## Alternatives
 
-If you don’t want to install this plugin you could simple list the necessary
-functions in the eslint configuration
-[`globals`](https://eslint.org/docs/user-guide/configuring#specifying-globals) key:
+If you don’t want to install this plugin you can list the necessary functions in the
+ESLint configuration [`globals`
+key](https://eslint.org/docs/user-guide/configuring#specifying-globals) instead:
 
 ```json
 {
