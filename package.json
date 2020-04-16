@@ -2,7 +2,7 @@
 	"name": "eslint-plugin-django",
 	"description": "An eslint environment plugin that configures globals added by the Django JavaScript Catalog",
 	"license": "BSD-3-Clause",
-	"version": "1.0.0-alpha.2",
+	"version": "1.0.0-rc.1",
 	"author": {
 		"name": "Ben Spaulding",
 		"email": "ben@spaulding.im",
