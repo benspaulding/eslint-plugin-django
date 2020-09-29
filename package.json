@@ -17,7 +17,7 @@
 		"url": "https://github.com/benspaulding/eslint-plugin-django/issues"
 	},
 	"engines": {
-		"node": "^13.0"
+		"node": "^10.12.0 || >=12.0.0"
 	},
 	"keywords": [
 		"eslint",
