@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+Update dependencies just to keep things fresh.
+
 ## 1.0.0-rc.1
 
 More documentation tweaks.
