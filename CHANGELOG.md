@@ -2,7 +2,8 @@
 
 ## 1.0.0
 
-Update dependencies just to keep things fresh.
+- Update dependencies just to keep things fresh.
+- Add mocha and an initial test.
 
 ## 1.0.0-rc.1
 
