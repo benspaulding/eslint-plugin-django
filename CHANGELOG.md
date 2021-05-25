@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0
+
+- Update dependencies because of vulnerabilities.
+- Drop support for Node v10.
+
 ## 1.0.0
 
 - Update dependencies just to keep things fresh.
